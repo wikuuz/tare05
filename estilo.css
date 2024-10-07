@@ -1,0 +1,133 @@
+/* Estilo general */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+}
+
+main {
+  width: 90%;
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #3ec25a;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabecera */
+.cabecera {
+  text-align: left; /* Alinear a la izquierda */
+  padding: 10px;
+}
+
+.cabecera img {
+  width: 120px;
+  float: left; /* Colocar la imagen a la izquierda */
+  margin-right: 20px;
+}
+
+
+nav {
+  height: 40px;
+}
+
+.menu {
+  margin-left: 60%; /* Alineación izquierda al medio del contenedor nav */
+  margin-top: 0.5em;
+}
+
+.menu li {
+  display: inline; /* Cambiar la presentación de bloque por defecto a en línea */
+}
+
+/* Propiedades del enlace (etiqueta a) */
+.menu li a {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px 5px 0px 0px;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave para el hover */
+}
+
+
+.menu li a:hover {
+  background-color: #0d0e0d; 
+  color: white; 
+}
+
+/* Contenido */
+.contenido {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+
+.cuadro {
+  width: 45%; 
+  margin-bottom: 20px; 
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease; 
+}
+
+
+.html {
+  background-color: #ff5722; 
+}
+
+.css {
+  background-color: #2965f1; 
+}
+
+.js {
+  background-color: #f7df1e;
+  color: rgb(252, 252, 252); 
+}
+
+.php {
+  background-color: #4f5b93; 
+}
+
+
+.cuadro:hover {
+  background-color: black; /* Cambiar a negro al pasar el mouse */
+}
+
+
+footer {
+  border-top: 3px solid #3ec25a; 
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #3ec25a;
+  text-align: center;
+  color: rgb(238, 229, 229);
+}
+
+
+footer p, footer span, footer br {
+  margin: 5px 0; 
+}
+
+.redes a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.redes img {
+  width: 100px;
+  vertical-align: middle;
+}
+
+.cabecera img{
+  width: 100px;
+  height: auto;
+
+}
